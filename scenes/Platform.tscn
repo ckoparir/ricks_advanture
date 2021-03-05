@@ -1,0 +1,18 @@
+[gd_scene load_steps=2 format=2]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 305.195, 10 )
+
+[node name="Platform" type="Node2D"]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="Sprite" type="Sprite" parent="StaticBody2D"]
+modulate = Color( 0.25098, 0.0941176, 0.741176, 1 )
+self_modulate = Color( 0.0352941, 0.152941, 0.380392, 1 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+modulate = Color( 0.819608, 0.0470588, 0.0470588, 1 )
+self_modulate = Color( 0.878431, 0.0588235, 0.0588235, 1 )
+scale = Vector2( 2.28, 1 )
+shape = SubResource( 1 )
