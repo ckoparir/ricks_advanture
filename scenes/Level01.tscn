@@ -6,8 +6,8 @@
 [node name="Level01" type="Node2D"]
 
 [node name="Platform" parent="." instance=ExtResource( 2 )]
-position = Vector2( 427.654, 536.004 )
-scale = Vector2( 10, 2 )
+position = Vector2( 506.054, 591.096 )
+scale = Vector2( 8, 1 )
 
 [node name="Rick" parent="." instance=ExtResource( 1 )]
 position = Vector2( 171.825, 140.03 )
